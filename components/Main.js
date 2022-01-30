@@ -18,7 +18,7 @@ export default function Main() {
 
               <div className="abt-content m-5 mr-5 mb-5">
                 <h3 className="text-white mt-3 fw-bolder">Hei, I'm a</h3>
-                <h1><span className="text-warning mb-4 display-4">Designer, Developer & Project leder</span> </h1>
+                <h1><span className="text-warning mb-4 display-4">Designer, Developer and Project leader</span> </h1>
               
               </div>
             

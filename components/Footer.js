@@ -12,23 +12,23 @@ export default function Footer() {
                 <ul className="list-inline text-center py-5">
                     <li className="list-inline-item">
                         <Link href="https://www.facebook.com" target="_blank">
-                            <span className="fa-stack fa-lg">
+                            <a className="fa-stack fa-lg">
                                 <FontAwesomeIcon icon={faFacebook} className="fa-stack-2x fa-inverse" />
-                            </span>
+                            </a>
                         </Link>
                     </li>
                     <li className="list-inline-item">
                         <Link href="http://userstory.com" target="_blank">
-                            <span className="fa-stack fa-lg">
+                            <a className="fa-stack fa-lg">
                                 <FontAwesomeIcon icon={faWordpress} className="fa-stack-2x fa-inverse" />
-                            </span>
+                            </a>
                         </Link>
                     </li>
                     <li className="list-inline-item">
                         <Link href="https://github.com" target="_blank">
-                            <span className="fa-stack fa-lg">
+                            <a className="fa-stack fa-lg">
                                 <FontAwesomeIcon icon={faGithub} className="fa-stack-2x fa-inverse" />
-                            </span>
+                            </a>
                         </Link>
                     </li>
                 </ul>
