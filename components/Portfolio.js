@@ -20,8 +20,8 @@ export default function Portfolio() {
 
                 <div className="border border-light p-3 ml-4 col-lg-4 serv animateInLeft">
                     <div className="box1">
-                        <Link href="#home" >
-                            <a href="#home" data-toggle="tooltip" data-animation="58" data-goto="1">
+                        <Link href="#home" passHref={true}>
+                            <a data-toggle="tooltip" data-animation="58" data-goto="1">
                                 <span className="fa-stack ">
                                     <FontAwesomeIcon icon={faPhone} className="fa-stack-2x"/>
                                 </span>
@@ -32,7 +32,7 @@ export default function Portfolio() {
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt doloremque excepturi sit odit impedit, voluptas. Vel, facere nobis, beatae inventore maxime veniam!
                             </p>
-                            <Link href="https://xd.adobe.com/view/895e5434-a851-43af-93aa-d77b347c80f3-dc0d" >
+                            <Link href="https://xd.adobe.com/view/895e5434-a851-43af-93aa-d77b347c80f3-dc0d" passHref={true}>
                                 <button className="btn-warning p-2">
                                     View projects
                                 </button>
@@ -43,8 +43,8 @@ export default function Portfolio() {
 
                 <div className="border border-light p-3 col-lg-4 serv bounceInUp">
                     <div className="box1">
-                        <Link href="#home" >
-                            <a href="#home" data-toggle="tooltip" data-animation="58" data-goto="1">
+                        <Link href="#home" passHref={true}>
+                            <a data-toggle="tooltip" data-animation="58" data-goto="1">
                                 <span className="fa-stack ">
                                     <FontAwesomeIcon icon={faDesktop} className="fa-stack-2x"/>
                                 </span>
@@ -55,7 +55,7 @@ export default function Portfolio() {
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt doloremque excepturi sit odit impedit, voluptas. Vel, facere nobis, beatae inventore maxime veniam!
                             </p>
-                            <Link href= "https://flowerpowersite.vercel.app/</div>">
+                            <Link href= "https://flowerpowersite.vercel.app/</div>" passHref={true}>
                                 <button className="btn-warning p-2">
                                     View projects
                                 </button>
@@ -66,8 +66,8 @@ export default function Portfolio() {
 
                 <div className="border border-light p-3 col-lg-4 serv bounceInRight">
                     <div className="box1">
-                        <Link href="#home" >
-                            <a href="#home" data-toggle="tooltip" data-animation="58" data-goto="1">
+                        <Link href="#home" passHref={true}>
+                            <a  data-toggle="tooltip" data-animation="58" data-goto="1">
                                 <span className="fa-stack ">
                                     <FontAwesomeIcon icon={faBroadcastTower} className="fa-stack-2x"/>
                                 </span>
@@ -78,7 +78,7 @@ export default function Portfolio() {
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt doloremque excepturi sit odit impedit, voluptas. Vel, facere nobis, beatae inventore maxime veniam!
                             </p>
-                            <Link href="https://xd.adobe.com/view/0394cb37-8758-4bdb-b4c4-c905cbce73f2-56c7/screen/2f4d2cf4-d2b7-448d-9768-6557955cdf0f" >
+                            <Link href="https://xd.adobe.com/view/0394cb37-8758-4bdb-b4c4-c905cbce73f2-56c7/screen/2f4d2cf4-d2b7-448d-9768-6557955cdf0f" passHref={true}>
                                 <button className="btn-warning p-2">
                                     View projects
                                 </button>
