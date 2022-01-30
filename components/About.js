@@ -73,7 +73,7 @@ export default function About() {
                   </a>
                   <div className="content-list ">
                       <div className="row mt-5">
-                      <div class="col-sm-6">
+                      <div className="col-sm-6">
                                     <ul>
                                         <li>
                                             <label>Name:</label>
@@ -96,7 +96,7 @@ export default function About() {
                                         </li>
                                     </ul>
                                 </div>
-                                <div class="col-sm-6">
+                                <div className="col-sm-6">
                                     <ul>
                                         <li>
                                             <label>Phone:</label>

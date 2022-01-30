@@ -20,11 +20,13 @@ export default function Portfolio() {
 
                 <div className="border border-light p-3 ml-4 col-lg-4 serv animateInLeft">
                     <div className="box1">
-                        <a href="#home" data-toggle="tooltip" data-animation="58" data-goto="1">
-                            <span className="fa-stack ">
-                                <FontAwesomeIcon icon={faPhone} className="fa-stack-2x"/>
-                            </span>
-                        </a>
+                        <Link href="#home" >
+                            <a href="#home" data-toggle="tooltip" data-animation="58" data-goto="1">
+                                <span className="fa-stack ">
+                                    <FontAwesomeIcon icon={faPhone} className="fa-stack-2x"/>
+                                </span>
+                            </a>
+                        </Link>
                         <div className="port-content text-white mt-5">
                             <h5>Web Design</h5>
                             <p>
@@ -41,11 +43,13 @@ export default function Portfolio() {
 
                 <div className="border border-light p-3 col-lg-4 serv bounceInUp">
                     <div className="box1">
-                        <a href="#home" data-toggle="tooltip" data-animation="58" data-goto="1">
-                            <span className="fa-stack ">
-                                <FontAwesomeIcon icon={faDesktop} className="fa-stack-2x"/>
-                            </span>
-                        </a>
+                        <Link href="#home" >
+                            <a href="#home" data-toggle="tooltip" data-animation="58" data-goto="1">
+                                <span className="fa-stack ">
+                                    <FontAwesomeIcon icon={faDesktop} className="fa-stack-2x"/>
+                                </span>
+                            </a>
+                        </Link>
                         <div className="content text-white pt-5">
                             <h5>Web Development</h5>
                             <p>
@@ -62,11 +66,13 @@ export default function Portfolio() {
 
                 <div className="border border-light p-3 col-lg-4 serv bounceInRight">
                     <div className="box1">
-                        <a href="#home" data-toggle="tooltip" data-animation="58" data-goto="1">
-                            <span className="fa-stack ">
-                                <FontAwesomeIcon icon={faBroadcastTower} className="fa-stack-2x"/>
-                            </span>
-                        </a>
+                        <Link href="#home" >
+                            <a href="#home" data-toggle="tooltip" data-animation="58" data-goto="1">
+                                <span className="fa-stack ">
+                                    <FontAwesomeIcon icon={faBroadcastTower} className="fa-stack-2x"/>
+                                </span>
+                            </a>
+                        </Link>
                         <div className="port-content text-white mt-5">
                             <h5>Project Management</h5>
                             <p>
