@@ -18,8 +18,8 @@ export default function Portfolio() {
 
             <div className="row d-flex justify-content-around">
 
-                <div className="border border-light p-3 ml-4 col-lg-4 serv animateInLeft">
-                    <div className="box1">
+                <div className="border border-light p-3 col-lg-4 gap-4 serv animateInLeft">
+                    <div className="box1 mr-3">
                         <Link href="#home" passHref={true}>
                             <a data-toggle="tooltip" data-animation="58" data-goto="1">
                                 <span className="fa-stack ">
@@ -42,9 +42,9 @@ export default function Portfolio() {
                 </div>
 
                 <div className="border border-light p-3 col-lg-4 serv bounceInUp">
-                    <div className="box1">
+                    <div className="box1 mr-3">
                         <Link href="#home" passHref={true}>
-                            <a data-toggle="tooltip" data-animation="58" data-goto="1">
+                            <a href="#home" data-toggle="tooltip" data-animation="58" data-goto="1">
                                 <span className="fa-stack ">
                                     <FontAwesomeIcon icon={faDesktop} className="fa-stack-2x"/>
                                 </span>
