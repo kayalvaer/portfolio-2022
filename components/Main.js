@@ -23,7 +23,7 @@ export default function Main() {
               </div>
             
             
-                <div href='/'>
+                <div href='#'>
                     <a className='kay-img position-relative opacity-1' > 
                         <Image src="/port-imgs/kay2.png"
                         width="550px"
